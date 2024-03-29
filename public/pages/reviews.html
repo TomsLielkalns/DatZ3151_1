@@ -1,7 +1,7 @@
 <html>
   <head>
   <title>KungFu Panda Review</title>
-  <link href="../styles/output.css" rel="stylesheet" />
+  <link href="/styles/output.css" rel="stylesheet" />
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -45,7 +45,7 @@
     
     </script>
   </head>
-  <body>
+  <body class="bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white">
     <nav class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
       <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -91,22 +91,21 @@
       </div>
     </nav>
 
-    <header class="bg-gray-800 text-white">
-      <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <h1 class="text-3xl font-bold text-center">Movie Review: Kung Fu Panda</h1>
+    <section class="bg-gray-200 dark:bg-gray-700">
+      <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8 flex items-center">
+        <h2 class="text-3xl font-bold text-center">Movie Review: Kung Fu Panda</h2>
       </div>
-    </header>
+    </section>
 
-    <div class="flex mb-4">
-      <div class="w-1/4 bg-gray-500 h-12">
+    <section class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8 flex">
+      <div class="w-1/4 h-12">
         <div class="flex flex-col items-start space-y-4">
-          <img src="/photos/profile-pic/reviewer.jpg" alt="Bob Jones" class="w-full rounded-full">
-          <h2 class="text-xl font-semibold">Reviewer</h2>
-          <p><strong>Name:</strong> Bob Jones</p>
-          <p><strong>Rating:</strong> 4.5/5 Stars</p>
+          <img src="/public/images/profile-pic/reviewer.jpg" alt="Bob Jones" class="max-h-40">
+          <p>Bob Jones</p>
+          <p class="italic text-sm">Bob Jones is a reviewer that has worke for the DatZ3151 movie review page for about 3 months now. He reviews movies based on this incredible amount of experience.</p>
         </div>
       </div>
-      <div class="w-3/4 bg-gray-400 h-12">
+      <div class="ml-8 w-3/4 bg-gray-400 h-12">
         <div class="md:col-span-3">
           <section class="review-content mb-8">
             <h2 class="text-2xl font-semibold mb-4">A Romantic Underdog Tale</h2>
@@ -116,34 +115,16 @@
             <p class="mb-4">
               At its core, the movie is an underdog tale emphasizing the importance of self-belief and embracing one's uniqueness. The dynamic between Po and his mentor, Master Shifu, adds emotional depth, while the star-studded voice cast enhances the film's appeal.
             </p>
-            <p>
+            <p class="mb-4">
               With a mix of slapstick humor and touching moments, "Kung Fu Panda" appeals to both children and adults. Its uplifting message and memorable soundtrack make it a standout animated film.
+            </p>
+            <p class="mb-4 font-bold">
+              Rating: 4.5/5 Stars
             </p>
           </section>
         </div>
       </div>
-    </div>
+    </section>
 
-    <main class="max-w-screen-xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-      
-
-        <!-- Review Content - Right Side -->
-        <div class="md:col-span-3">
-          <section class="review-content mb-8">
-            <h2 class="text-2xl font-semibold mb-4">A Romantic Underdog Tale</h2>
-            <p class="mb-4">
-              "Kung Fu Panda" is an engaging blend of humor, action, and heartfelt moments. It tells the story of Po, a clumsy panda with dreams of martial arts greatness. Jack Black's voice brings Po's character to life with relatable charm and enthusiasm. The film dazzles with vibrant animation that captures the essence of ancient China and delivers thrilling kung fu sequences.
-            </p>
-            <p class="mb-4">
-              At its core, the movie is an underdog tale emphasizing the importance of self-belief and embracing one's uniqueness. The dynamic between Po and his mentor, Master Shifu, adds emotional depth, while the star-studded voice cast enhances the film's appeal.
-            </p>
-            <p>
-              With a mix of slapstick humor and touching moments, "Kung Fu Panda" appeals to both children and adults. Its uplifting message and memorable soundtrack make it a standout animated film.
-            </p>
-          </section>
-        </div>
-      </div>
-    </main>
 </body>
 </html>
