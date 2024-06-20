@@ -6,26 +6,32 @@
     xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
         <loc>https://dat-z3151-1.vercel.app/</loc>
-        <lastmod>2024-04-20T00:00:00.000Z</lastmod>
+        <lastmod>2024-06-20T00:00:00.000Z</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
+        <priority>0.2</priority>
     </url>
     <url>
         <loc>https://dat-z3151-1.vercel.app/pages/directors.html</loc>
-        <lastmod>2024-04-20T00:00:00.000Z</lastmod>
+        <lastmod>2024-06-20T00:00:00.000Z</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
+        <priority>0.8</priority>
     </url>
     <url>
         <loc>https://dat-z3151-1.vercel.app/pages/movies.html</loc>
-        <lastmod>2024-04-20T00:00:00.000Z</lastmod>
+        <lastmod>2024-06-20T00:00:00.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://dat-z3151-1.vercel.app/pages/kung-fu-panda-movie-review.html</loc>
-        <lastmod>2024-04-20T00:00:00.000Z</lastmod>
+        <lastmod>2024-06-20T00:00:00.000Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://dat-z3151-1.vercel.app/pages/dads.html</loc>
+        <lastmod>2024-06-20T00:00:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
 </urlset>
